@@ -1,0 +1,56 @@
+/* Main container to center the content */
+.container {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  padding: 20px;
+}
+
+/* Title styling */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px; /* Add space between title and filter row */
+}
+
+/* Filter options row */
+.filters {
+  display: flex;
+  flex-direction: row; /* Arrange filter cards in a row */
+  gap: 8px;            /* Space between filter cards */
+  margin-bottom: 20px; /* Space between filters and country data */
+}
+
+/* Styles for all cards */
+.card {
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+  width: 120px;
+  height: 100px;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  margin: 4px 0;
+  font-weight: normal;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Flex container for options inside Top 10 card */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+label {
+  font-size: 12px;
+  margin: 0;
+}

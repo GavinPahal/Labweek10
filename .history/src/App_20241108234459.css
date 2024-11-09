@@ -1,0 +1,29 @@
+/* Main container for a centered, column layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* Center cards in a single column */
+}
+
+/* Styles for individual cards */
+.card {
+  background-color: #f0f0f0;       /* Light gray background */
+  padding: 10px;                   /* Padding inside each card */
+  margin: 8px 0;                   /* Vertical spacing between cards */
+  border-radius: 5px;              /* Rounded corners */
+  max-width: 200px;                /* Narrower width */
+  width: 100%;                     /* Full width up to max-width */
+  text-align: left;                /* Align text to the left */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h3 {
+  margin: 8px 0;
+  font-weight: normal;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}

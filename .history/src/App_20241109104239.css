@@ -1,0 +1,24 @@
+.country-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 300px;
+}
+
+.country-header {
+  display: flex;
+  align-items: center;
+  gap: 0; /* No gap between flag and title */
+}
+
+.country-header img {
+  display: inline-block;
+  margin-right: 4px; /* Minimal margin for slight separation */
+}
+
+.country-header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+}

@@ -1,0 +1,97 @@
+/* Basic Container Styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Title Styling */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Filter Section */
+.filters {
+  display: flex;
+  gap: 10px;  /* Reduced gap */
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 10px;  /* Reduced padding */
+  border-radius: 8px;
+  text-align: center;
+  width: 120px;  /* Reduced width */
+  cursor: pointer;
+}
+
+/* Make sure all text looks the same except the title */
+* {
+  font-family: 'Arial', sans-serif; /* Global font */
+  font-size: 1rem;  /* Default font size for all elements */
+  font-weight: normal; /* Normal font weight */
+}
+
+.card label {
+  font-weight: normal;
+}
+
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+input {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Country Cards Grid */
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.country-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+}
+
+.country-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.country-card p {
+  margin: 0.5rem 0;
+}
+
+.border-countries {
+  margin-top: 1rem;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.small-select {
+  width: 120px;  /* Adjust the width as needed */
+  padding: 5px;  /* Adjust padding */
+}

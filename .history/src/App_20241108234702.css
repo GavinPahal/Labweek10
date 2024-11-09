@@ -1,0 +1,40 @@
+/* Main container for a centered, horizontal layout */
+.container {
+  display: flex;
+  flex-direction: row;      /* Align items in a row */
+  justify-content: center;  /* Center the cards horizontally */
+  flex-wrap: wrap;          /* Wrap cards to a new row if they don’t fit */
+  gap: 10px;                /* Space between each card */
+  padding: 20px;            /* Padding around the container */
+}
+
+/* Styles for all cards */
+.card {
+  background-color: #f0f0f0;             /* Light gray background */
+  padding: 10px;                         /* Padding inside each card */
+  border-radius: 5px;                    /* Rounded corners */
+  width: 200px;                          /* Fixed width for consistent sizing */
+  height: 150px;                         /* Fixed height for uniformity */
+  text-align: center;                    /* Center text within cards */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;               /* Center content vertically */
+  align-items: center;
+}
+
+h3 {
+  margin: 8px 0;
+  font-weight: normal;
+  color: #333;
+}
+
+/* Flex container for options inside Top 10 card */
+.options {
+  display: flex;
+  gap: 10px; /* Spacing between checkboxes */
+}
+
+label {
+  margin: 0;
+}

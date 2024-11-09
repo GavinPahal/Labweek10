@@ -1,0 +1,72 @@
+/* Basic Container Styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Filter Section */
+.filters {
+  display: flex;
+  gap: 15px;  /* Reduced gap */
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 10px;  /* Reduced padding */
+  border-radius: 8px;
+  text-align: center;
+  width: 120px;  /* Reduced width */
+  cursor: pointer;
+  font-family: inherit; /* Remove font styling */
+  font-size: inherit;  /* Remove font styling */
+}
+
+/* Country Cards Grid */
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.country-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+}
+
+.country-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 0.5rem;
+}
+
+/* Text Styling */
+.country-card p {
+  margin: 0.5rem 0;
+}
+
+.border-countries {
+  margin-top: 1rem;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Add this to your App.css */
+.small-select {
+  width: 120px;  /* Adjust the width as needed */
+  padding: 5px;  /* Adjust padding */
+  font-size: 14px;  /* Adjust font size */
+}

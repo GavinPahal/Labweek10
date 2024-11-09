@@ -1,0 +1,20 @@
+/* Main container for a centered, horizontal layout */
+.container {
+  display: flex;
+  flex-direction: row;     /* Align items in a row */
+  justify-content: center; /* Center the cards horizontally */
+  flex-wrap: wrap;         /* Wrap cards to a new row if they don’t fit */
+  gap: 10px;               /* Space between each card */
+  padding: 20px;           /* Padding around the container */
+}
+
+/* Styles for individual cards */
+.card {
+  background-color: #f0f0f0;       /* Light gray background */
+  padding: 10px;                   /* Padding inside each card */
+  border-radius: 5px;              /* Rounded corners */
+  max-width: 200px;                /* Narrower width */
+  width: 100%;                     /* Full width up to max-width */
+  text-align: center;              /* Center text within cards */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}

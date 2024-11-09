@@ -1,0 +1,42 @@
+/* Main container for a centered, horizontal layout */
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;                /* Reduce gap between cards for a compact look */
+  padding: 20px;
+}
+
+/* Styles for all cards */
+.card {
+  background-color: #f0f0f0;
+  padding: 5px;                   /* Smaller padding inside each card */
+  border-radius: 5px;
+  width: 120px;                   /* Reduced width */
+  height: 100px;                  /* Reduced height */
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  margin: 4px 0;                 /* Smaller margin for headings */
+  font-weight: normal;
+  font-size: 14px;               /* Smaller font size for headings */
+  color: #333;
+}
+
+/* Flex container for options inside Top 10 card */
+.options {
+  display: flex;
+  gap: 5px;                      /* Reduce gap between checkboxes */
+}
+
+label {
+  font-size: 12px;               /* Smaller font size for labels */
+  margin: 0;
+}

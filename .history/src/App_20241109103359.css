@@ -1,0 +1,31 @@
+.country-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.country-card img {
+  margin-bottom: 10px;
+}
+
+.border-countries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.border-flag {
+  text-align: center;
+}
+
+.border-flag img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 40px;
+  height: auto;
+}

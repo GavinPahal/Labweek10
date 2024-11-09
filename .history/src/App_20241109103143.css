@@ -1,0 +1,44 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Country Card */
+.country-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.country-flag {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.country-card h2 {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 10px;
+}

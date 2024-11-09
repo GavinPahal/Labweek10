@@ -1,0 +1,74 @@
+/* App.css */
+
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 20px 0;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 1em;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.country {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: left;
+}
+
+.flag {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.country h2 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.country p {
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

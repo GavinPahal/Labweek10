@@ -1,0 +1,24 @@
+.country-card {
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  width: 250px;
+  display: inline-block;
+}
+
+.country-card img {
+  width: 100px;
+  height: auto;
+}
+
+.country-card a {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.country-card a:hover {
+  text-decoration: underline;
+}

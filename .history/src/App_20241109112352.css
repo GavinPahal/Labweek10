@@ -1,0 +1,59 @@
+.country-card {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Filter Cards Container */
+.filter-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* Individual Filter Card */
+.filter-card {
+  background-color: #e0e0e0;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  min-width: 100px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.filter-card:hover {
+  background-color: #c6c6c6;
+}
+
+.country-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.border-countries {
+  margin-top: 15px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

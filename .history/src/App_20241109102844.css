@@ -1,0 +1,94 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Country Card */
+.country-card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.country-card img {
+  border-radius: 4px;
+}
+
+.country-card h2 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #333;
+}
+
+.country-card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Google Maps Link */
+.country-card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.country-card a:hover {
+  background-color: #0056b3;
+}
+
+/* Border Countries Section */
+.border-countries {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.border-countries strong {
+  font-size: 1rem;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.border-countries .border-flag {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  margin: 5px;
+}
+
+.border-countries .border-flag img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.border-countries .border-flag p {
+  font-size: 0.7rem;
+  color: #555;
+  margin-top: 5px;
+}

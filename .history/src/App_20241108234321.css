@@ -1,0 +1,20 @@
+/* Barebone CSS with narrower card width */
+.card {
+  background-color: #f0f0f0;      /* Light gray background */
+  padding: 10px;                  /* Padding inside each card */
+  margin: 10px auto;              /* Center cards with auto horizontal margins */
+  border-radius: 5px;             /* Rounded corners */
+  max-width: 250px;               /* Maximum width to keep cards closer to text size */
+  text-align: left;               /* Align text to the left for better readability */
+}
+
+h3 {
+  margin: 8px 0;
+  font-weight: normal;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+}
