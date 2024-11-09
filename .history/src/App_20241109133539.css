@@ -14,22 +14,14 @@
   margin-bottom: 20px;
 }
 
-/* Card Styling for Filters and Other Components */
+
 .card {
   background-color: #f0f0f0;
   padding: 10px;  /* Reduced padding */
   border-radius: 8px;
   text-align: center;
   width: 120px;  /* Reduced width */
-  box-shadow: none;  /* Remove shadow if needed on card */
-}
-
-/* Top 10 Sorting Options */
-.options {
-  display: flex;
-  flex-direction: column; /* Align options top to bottom */
-  gap: 5px; /* Reduced gap between the options for better alignment */
-  justify-content: center;
+  cursor: pointer;
 }
 
 /* Country Cards Grid */
@@ -70,7 +62,7 @@
   color: #555;
 }
 
-/* Small Select Dropdown for Subregion */
+/* Add this to your App.css */
 .small-select {
   width: 120px;  /* Adjust the width as needed */
   padding: 5px;  /* Adjust padding */

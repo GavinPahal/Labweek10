@@ -20,16 +20,26 @@
   padding: 10px;  /* Reduced padding */
   border-radius: 8px;
   text-align: center;
-  width: 120px;  /* Reduced width */
-  box-shadow: none;  /* Remove shadow if needed on card */
+  width: 120px;  /* Fixed width */
+  min-height: 180px;  /* Set a minimum height to fix card height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  /* Ensure content is spaced well inside the card */
+  box-sizing: border-box; /* Ensure padding does not affect the card's overall height */
 }
 
 /* Top 10 Sorting Options */
 .options {
   display: flex;
-  flex-direction: column; /* Align options top to bottom */
-  gap: 5px; /* Reduced gap between the options for better alignment */
-  justify-content: center;
+  flex-direction: column;  /* Align options top to bottom */
+  gap: 5px;  /* Reduced gap between the options for better alignment */
+  justify-content: flex-start; /* Align options to the left */
+  text-align: left; /* Align checkbox text to the left */
+}
+
+.options label {
+  display: inline-block;
+  white-space: nowrap;  /* Prevent text from wrapping */
 }
 
 /* Country Cards Grid */

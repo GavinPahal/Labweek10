@@ -21,7 +21,11 @@
   border-radius: 8px;
   text-align: center;
   width: 120px;  /* Reduced width */
+  height: 150px;  /* Fixed height for consistent card height */
   box-shadow: none;  /* Remove shadow if needed on card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  /* Ensure content is spaced well inside the card */
 }
 
 /* Top 10 Sorting Options */
@@ -74,6 +78,5 @@
 .small-select {
   width: 120px;  /* Adjust the width as needed */
   padding: 5px;  /* Adjust padding */
-  box-shadow: none;  /* Remove dropdown shadow */
-  border: 1px solid #ddd;  /* Border for select element */
+  box-shadow: none;  /* Remove dro
 }

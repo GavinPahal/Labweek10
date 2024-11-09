@@ -28,7 +28,7 @@
 .options {
   display: flex;
   flex-direction: column; /* Align options top to bottom */
-  gap: 5px; /* Reduced gap between the options for better alignment */
+  gap: 10px; /* Space between the options */
   justify-content: center;
 }
 
